@@ -8,7 +8,6 @@ int main(void)
 	char *buffer = NULL, *argv[] = {"", NULL}, *token;
 	size_t size = 0;
 	int status, others, execcheck;
-
 	signal(SIGINT, ctrlc);
 	while (1)
 	{
